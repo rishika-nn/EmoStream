@@ -1,0 +1,5 @@
+curl -X POST http://localhost:5000/send_emoji -H "Content-Type: application/json" -d '{
+    "user_id": "user123",
+    "emoji_type": "smile",
+    "timestamp": 1635563284
+}'
